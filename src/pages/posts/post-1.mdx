@@ -1,0 +1,17 @@
+---
+layout: "../../layouts/PostPageLayout.astro"
+title: "これはMDXファイルを扱うためのテスト投稿です"
+description: "MDXファイルの動作テストです"
+---
+
+import PostHeading from "../../components/PostHeading.astro";
+
+<PostHeading title="これはMDXファイルを扱うためのテスト投稿です" />
+
+<div class="post-body">
+  これは MDX ファイルを扱うためのテスト投稿です
+  <br />
+  npx astro add mdx
+  <br />
+  コマンドを使用後に astro にて mdx ファイルを扱うことが可能になります
+</div>

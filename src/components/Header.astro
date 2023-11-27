@@ -1,0 +1,29 @@
+---
+
+---
+
+<header class="header">
+  <div class="header__inner content">
+    <a href="/">Home</a>
+  </div>
+</header>
+
+<style lang="scss">
+  .header__inner {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__inner a {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: bold;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+</style>
